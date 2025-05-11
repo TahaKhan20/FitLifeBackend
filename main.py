@@ -221,5 +221,5 @@ def predict_health(data: HealthInput):
 
 if __name__ == "__main__":
     import os
-    port = int(os.environ.get("PORT", 8000))  # Use Railway's PORT env if available
+    port = int(os.environ.get("PORT", 8080))  # Use Railway's PORT env if available
     uvicorn.run(app, host="0.0.0.0", port=port)
