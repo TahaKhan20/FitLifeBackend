@@ -158,7 +158,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # or ["*"] for all
+    allow_origins=["https://fit-life-nu.vercel.app"],  # ← This is your deployed frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
