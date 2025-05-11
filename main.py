@@ -8,7 +8,7 @@ import joblib
 # app = FastAPI()
 # app.add_middleware(
 #     CORSMiddleware,
-#     allow_origins=["http://localhost:3000"],  # Replace "*" with ["http://localhost:3000"] for production
+#     allow_origins=["https://fit-life-nu.vercel.app"],  # Replace "*" with ["http://localhost:3000"] for production
 #     allow_credentials=True,
 #     allow_methods=["*"],
 #     allow_headers=["*"],
